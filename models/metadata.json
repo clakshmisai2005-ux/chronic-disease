@@ -1,0 +1,24 @@
+{
+  "model_name": "logistic_regression",
+  "feature_names": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "target": "Outcome",
+  "selection_metric": "validation ROC-AUC",
+  "validation_scores": {
+    "logistic_regression": 0.8277777777777777,
+    "random_forest": 0.8062037037037038
+  },
+  "test_roc_auc": 0.8125925925925926,
+  "random_state": 42,
+  "test_size": 0.2,
+  "training_timestamp_utc": "2026-10-21T05:16:13.183573+00:00",
+  "scikit_learn_version": "1.5.0"
+}
